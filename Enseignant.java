@@ -6,13 +6,13 @@ import java.util.ArrayList;
 public class Enseignant extends Personne {
 private String matricule;
 private String matiere;
-private List<Module> modules; // List of modules taught by the teacher
+private List<Module> modules; 
 
 public Enseignant(String nom, String prenom, int age, String sexe, String matricule, String matiere) {
 super(nom, prenom, age, sexe);
 this.matricule = matricule;
 this.matiere = matiere;
-this.modules = new ArrayList<>(); // Initialize the list
+this.modules = new ArrayList<>();
 }
 
 public String getMatricule() {
