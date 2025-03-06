@@ -11,7 +11,7 @@ public class Note {
     }
 
     public double getNote(String matiere) {
-        return notesParMatiere.getOrDefault(matiere, -1.0); // -1.0 يعني أن المادة غير موجودة
+        return notesParMatiere.getOrDefault(matiere, -1.0); 
     }
 
     public double calculerMoyenne() {
