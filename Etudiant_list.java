@@ -51,7 +51,7 @@ System.out.println("-----------------------------");
 }
 }
 
-// New Method: Display students with their average grades
+
 public void afficherTousLesEtudiantsAvecMoyenne() {
 if (etudiantsList.isEmpty()) {
 System.out.println("Aucun étudiant enregistré.");
