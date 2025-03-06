@@ -4,7 +4,7 @@ public class Etudiant extends Personne {
 private String matricule;
 private double bac;
 private String typeEtudiant;
-private Note note; // إضافة حقل للنقاط
+private Note note;
 
 public Etudiant(String nom, String prenom, int age, String sexe, String matricule, double bac) {
 super(nom, prenom, age, sexe);
@@ -15,7 +15,7 @@ typeEtudiant = "ENS";
 } else {
 typeEtudiant = "Normal";
 }
-this.note = new Note(); // تهيئة حقل النقاط
+this.note = new Note(); 
 }
 
 public String getMatricule() {
